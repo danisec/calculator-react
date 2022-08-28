@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0 m-0 box-border;
+    }
+
+    body {
+        @apply font-montserrat font-normal leading-normal bg-body-bg text-txt-color flex justify-center pt-24;
+    }
+
+    button {
+        @apply cursor-pointer
+    }
+}
