@@ -17,8 +17,6 @@ const Calculator = () => {
     const btnClick = (item) => {
         const expDiv = expRef.current
 
-        if (item.action === BTN_ACTIONS.THEME) document.body.classList.toggle('dark')
-
         if (item.action === BTN_ACTIONS.ADD) {
             addAnimSpan(item.display)
 
