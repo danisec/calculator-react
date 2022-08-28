@@ -1,7 +1,12 @@
 import "./index.css";
+import Calculator from "./components/calculator/Calculator";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Calculator />
+    </div>
+  );
 }
 
 export default App;
